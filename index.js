@@ -8,7 +8,8 @@ const argv = yargs
   .option("region", {
     description: "AWS region",
     type: "string",
-    demandOption: true,
+    demandOption: false,
+    default: "eu-central-1",
   })
   .option("secretId", {
     description: "SecretId in AWS Secrets Manager",

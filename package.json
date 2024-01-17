@@ -1,7 +1,11 @@
 {
   "name": "aws-secrets-manager-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poettl/aws-secrets-manager-nodejs"
+  },
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy to use cli tool to get the value of a secret from AWS Secrets Manager.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
