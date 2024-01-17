@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const { SecretsManager } = require("@aws-sdk/client-secrets-manager");
 const yargs = require("yargs");
