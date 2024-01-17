@@ -44,7 +44,8 @@ return new Promise((resolve, reject) => {
         if (err) {
           reject(err);
         } else {
-          resolve("Secrets successfully written to .env file");
+          console.log("Secrets successfully written to .env file");
+          resolve();
         }
       });
     }
